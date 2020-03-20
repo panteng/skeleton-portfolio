@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+.footer {
+    margin-top: 28px;
+    padding: 28px 0;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    .social {
+        display: block;
+        .copyright {
+            color: #ccc;
+            margin-bottom: 10px;
+            font-size: 1em;
+        }
+        ul {
+            li {
+                display: inline;
+                a {
+                    display: inline-block;
+                    width: 48px;
+                    height: 48px;
+                    text-decoration: none;
+                    i {
+                        display: block;
+                        width: 32px;
+                        height: 32px;
+                        line-height: 32px;
+                        position: relative;
+                        top: 8px;
+                        left: 8px;
+                        text-align: center;
+                        background-color: #ccc;
+                        border-radius: 50%;
+                        color: #fff;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .social-facebook a:hover i {
+            background-color: #3b5998;
+        }
+
+        .social-dribbble a:hover i {
+            background-color: #c5376d;
+        }
+
+        .social-twitter a:hover i {
+            background-color: #8ec1da;
+        }
+    }
+    .contact {
+        display: block;
+        ul {
+            list-style: none;
+        }
+        a {
+            color: #ccc;
+            text-decoration: none;
+            i {
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+    .footer {
+        padding: 28px;
+        text-align: left;
+        .social {
+            float: left;
+        }
+        .contact {
+            float: right;
+        }
+    }
+}
