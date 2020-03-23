@@ -1,9 +1,0 @@
-{
-  "name": "skeleton-portfolio",
-  "dependencies": {
-    "skeleton": "~2.0.4",
-    "normalize-css": "normalize.css#^3.0.3",
-    "font-awesome": "^4.5.0",
-    "html5shiv": "^3.7.3"
-  }
-}

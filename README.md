@@ -1,8 +1,7 @@
 # Skeleton Portfolio
 
-A portfolio page built using Skeleton. See [Live Preview][1] here.
+A portfolio page built using [Skeleton](https://github.com/dhg/Skeleton/). This is an exercise from a book I read years ago.
 
-![Screenshot][2]
+See [Live Demo](https://skeleton-portfolio.netlify.com) here.
 
-[1]: https://panteng.github.io/skeleton-portfolio/
-[2]: https://raw.githubusercontent.com/panteng/skeleton-portfolio/master/screenshot.png
+![Screenshot](https://raw.githubusercontent.com/panteng/skeleton-portfolio/master/screenshot.png)
